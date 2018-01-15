@@ -25,5 +25,5 @@ for i in l:
 			stack.append(i)
 		if tag == 1:
 			stack[1:3:] = stack[-1:-3:-1]
-	print stack,"缺页了" if flag is True else "不缺页"
-print"LRU算法结束，总的缺页次数为:",count
+	print stack,"Missing page" if flag is True else "it's ok"
+print"LRU end，The total number of missing page are:",count
